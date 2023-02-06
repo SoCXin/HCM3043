@@ -1,0 +1,36 @@
+{
+    "type":"MCU",
+    "name":"HCM3043",
+    "title": "XHSC HCM3043 MCU",
+    "description":"XHSC Cortex-M0 MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":48,
+        "DMIPS": 45,
+        "CoreMark": 68
+    },
+    "manufacturer": {
+        "vendor":"XHSC",
+        "homepage":"http://www.XHSC.com.cn"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/HCM3043.git"
+    },
+    "version":"1.0.0",
+    "series":["HCM3043"],
+    "package":["QFN48"],
+    "peripheral": ["ADC","LPUSART","SPI","IIC"],
+    "temp": [-40,85],
+    "volt": [5.5,25],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M0",
+        "XHSC",
+        "DAC","ADC","I2C","LVD","SPI","LPUSART"
+    ]
+}
